@@ -5,9 +5,9 @@ const sql = require("mssql/msnodesqlv8")
 
 
 const config = {
-    server: 'DESKTOP-LH3BSQ8\\MSSQLSERVER02',
-    database: 'haftaDort',
-    port: 5000,
+    server: '-',
+    database: '-',
+    port: "-",
     driver: "msnodesqlv8",
     options: {
         trustServerCertificate: true,
